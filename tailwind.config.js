@@ -9,6 +9,10 @@ module.exports = {
       colors: {
         button: "#21092f",
       },
+      backgroundImage: {
+        bgMobile: "url('/images/bg-main-mobile.png')",
+        bgDesktop: "url('/images/bg-main-desktop.png')",
+      },
     },
   },
   plugins: [],
