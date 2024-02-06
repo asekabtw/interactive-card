@@ -43,19 +43,30 @@
                 src="./images/bg-card-back.png"
                 alt=""
               />
-              <!-- <p class="absolute  text-red-600 top-[40%] right-0">000</p> -->
+              <p class="absolute text-[10px] text-white top-[45%] right-8">
+                000
+              </p>
             </div>
           </div>
           <!-- end of back -->
 
           <!-- front -->
           <div class="w-full relative px-5 bottom-[1.75rem]">
-            <div class="w-[85%]">
+            <div class="w-[85%] relative">
+              <img
+                class="absolute w-[20%] left-4 top-4"
+                src="./images/card-logo.svg"
+                alt=""
+              />
               <img
                 class="w-full h-full"
                 src="./images/bg-card-front.png"
                 alt=""
               />
+              <!-- <div class="grid ">
+                <p class="w-full">0000 0000 0000 0000</p>
+                <p>Jane Appleseed <span class="self-end">00/00</span></p>
+              </div> -->
             </div>
           </div>
           <!-- end of front -->
@@ -64,7 +75,7 @@
 
         <!-- info -->
         <div class="m-auto px-5">
-          <div class="">
+          <div class="mb-4">
             <p class="uppercase mb-1 text-button tracking-[1px] text-[13px]">
               Cardholder Name
             </p>
@@ -76,6 +87,64 @@
               id=""
             />
           </div>
+
+          <div class="mb-4">
+            <p class="uppercase mb-1 text-button tracking-[1px] text-[13px]">
+              Card number
+            </p>
+            <input
+              class="w-full px-4 py-2 rounded-xl outline-none border border-[#dedddf] focus:border-[#6448fe] text-button placeholder:text-[#dedddf]"
+              type="text"
+              placeholder="e.g 1234 5678 9123 0000"
+              name=""
+              id=""
+            />
+          </div>
+          <div class="flex gap-2 mb-7">
+            <div class="w-3/12">
+              <p class="uppercase mb-1 text-button tracking-[1px] text-[13px]">
+                Exp.date
+              </p>
+              <input
+                class="w-full px-4 py-2 rounded-xl outline-none border border-[#dedddf] focus:border-[#6448fe] text-button placeholder:text-[#dedddf]"
+                type="text"
+                placeholder="MM"
+                name=""
+                id=""
+              />
+            </div>
+            <div class="w-3/12">
+              <p class="uppercase mb-1 text-button tracking-[1px] text-[13px]">
+                (MM/YY)
+              </p>
+              <input
+                class="w-full px-4 py-2 rounded-xl outline-none border border-[#dedddf] focus:border-[#6448fe] text-button placeholder:text-[#dedddf]"
+                type="text"
+                placeholder="YY"
+                name=""
+                id=""
+              />
+            </div>
+            <div class="w-6/12">
+              <p class="uppercase mb-1 text-button tracking-[1px] text-[13px]">
+                CVC
+              </p>
+              <input
+                class="w-full px-4 py-2 rounded-xl outline-none border border-[#dedddf] focus:border-[#6448fe] text-button placeholder:text-[#dedddf]"
+                type="text"
+                placeholder="e.g. 123"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+          <!-- Button -->
+          <button
+            class="w-full rounded-xl py-3 border-none outline-none bg-button text-white"
+          >
+            Confirm
+          </button>
+          <!-- end of Button -->
         </div>
         <!-- end of info -->
       </div>
