@@ -32,7 +32,7 @@
   <body class="font-main text-[18px]">
     <!-- main -->
     <div class="min-h-full w-full overflow-hidden">
-      <!-- container -->
+      <!-- CONTAINER -->
       <div class="m-auto">
         <!-- card -->
         <div class="relative mb-4 bg-bgMobile bg-no-repeat">
@@ -82,8 +82,42 @@
           <!-- end of front -->
         </div>
         <!-- end of card -->
+
+        <!-- FORM -->
+        <form class="grid gap-5 px-5" action="" method="GET">
+          <!-- NAME -->
+          <div class="flex flex-col gap-2 font-bold">
+            <label class="uppercase text-[11px] tracking-[1.5px]" for="name"
+              >Cardholder Name</label
+            >
+            <input
+              class="outline-none border-[1px] px-3 py-2 rounded-[8px] placeholder:text-[#dedddf] placeholder:font-medium focus:border-[#6448fe]"
+              type="text"
+              id="name"
+              autocomplete="off"
+              placeholder="e.g. Jane Appleseed"
+            />
+          </div>
+          <!-- end of NAME -->
+
+          <!-- NUMBER -->
+          <div class="flex flex-col gap-2 font-bold">
+            <label class="uppercase text-[11px] tracking-[1.5px]" for="name"
+              >card number</label
+            >
+            <input
+              class="outline-none border-[1px] px-3 py-2 rounded-[8px] placeholder:text-[#dedddf] placeholder:font-medium focus:border-[#6448fe]"
+              type="text"
+              id="name"
+              autocomplete="off"
+              placeholder="e.g. 1234 5678 9123 0000"
+            />
+          </div>
+          <!-- end of NUMBER -->
+        </form>
+        <!-- end of FORM -->
       </div>
-      <!-- end of container -->
+      <!-- end of CONTAINER -->
     </div>
     <!-- end of main -->
 

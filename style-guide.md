@@ -11,7 +11,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Linear gradient (active input border): hsl(249, 99%, 64%) to #600594
+- Linear gradient (active input border): #6448fe to #600594
 - Red (input errors): hsl(0, 100%, 66%)
 
 ### Neutral
