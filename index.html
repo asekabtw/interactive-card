@@ -102,18 +102,75 @@
 
           <!-- NUMBER -->
           <div class="flex flex-col gap-2 font-bold">
-            <label class="uppercase text-[11px] tracking-[1.5px]" for="name"
-              >card number</label
+            <label class="uppercase text-[11px] tracking-[1.5px]" for="number"
+              >Cart number</label
             >
             <input
               class="outline-none border-[1px] px-3 py-2 rounded-[8px] placeholder:text-[#dedddf] placeholder:font-medium focus:border-[#6448fe]"
               type="text"
-              id="name"
+              id="number"
               autocomplete="off"
               placeholder="e.g. 1234 5678 9123 0000"
             />
           </div>
           <!-- end of NUMBER -->
+
+          <!-- EXP DATE -->
+          <div class="grid grid-cols-4 gap-2 font-bold">
+            <!-- MONTH -->
+            <div class="grid gap-2">
+              <label class="uppercase text-[11px] tracking-[1.5px]"
+                >SMT. date</label
+              >
+              <input
+                class="w-full outline-none border-[1px] px-3 py-2 rounded-[8px] placeholder:text-[#dedddf] placeholder:font-medium focus:border-[#6448fe]"
+                type="text"
+                id="month"
+                autocomplete="off"
+                placeholder="MM"
+              />
+            </div>
+            <!-- end of MONTH -->
+
+            <!-- YEAR -->
+            <div class="grid gap-2">
+              <label class="uppercase text-[11px] tracking-[1.5px]"
+                >(NN/YY)</label
+              >
+              <input
+                class="w-full outline-none border-[1px] px-3 py-2 rounded-[8px] placeholder:text-[#dedddf] placeholder:font-medium focus:border-[#6448fe]"
+                type="text"
+                id="month"
+                autocomplete="off"
+                placeholder="YY"
+              />
+            </div>
+
+            <!-- end of YEAR -->
+
+            <!-- CODE -->
+            <div class="col-span-2 grid gap-2">
+              <label class="uppercase text-[11px] tracking-[1.5px]">CVC</label>
+              <input
+                class="w-full outline-none border-[1px] px-3 py-2 rounded-[8px] placeholder:text-[#dedddf] placeholder:font-medium focus:border-[#6448fe]"
+                type="text"
+                id="month"
+                autocomplete="off"
+                placeholder="e.g. 123"
+              />
+            </div>
+
+            <!-- end of CODE -->
+          </div>
+          <!-- end of EXP DATE -->
+
+          <!-- BUTTON -->
+          <button
+            class="w-full rounded-xl py-3 border-none outline-none bg-button text-white"
+          >
+            Confirm
+          </button>
+          <!-- end of BUTTON -->
         </form>
         <!-- end of FORM -->
       </div>

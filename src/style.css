@@ -590,12 +590,36 @@ video {
   grid-column: span 2 / span 2;
 }
 
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+
+.col-start-1{
+  grid-column-start: 1;
+}
+
+.col-start-2{
+  grid-column-start: 2;
+}
+
+.col-end-2{
+  grid-column-end: 2;
+}
+
+.col-end-3{
+  grid-column-end: 3;
+}
+
 .m-auto{
   margin: auto;
 }
 
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.block{
+  display: block;
 }
 
 .flex{
@@ -630,6 +654,14 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -642,28 +674,37 @@ video {
   gap: 0.5rem;
 }
 
-.gap-\[10px\]{
-  gap: 10px;
-}
-
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-\[10px\]{
+  gap: 10px;
 }
 
 .overflow-hidden{
   overflow: hidden;
 }
 
-.rounded-\[6px\]{
-  border-radius: 6px;
-}
-
 .rounded-\[8px\]{
   border-radius: 8px;
 }
 
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
 .border-\[1px\]{
   border-width: 1px;
+}
+
+.border-none{
+  border-style: none;
+}
+
+.bg-button{
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 9 47 / var(--tw-bg-opacity));
 }
 
 .bg-bgMobile{
@@ -693,6 +734,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .text-end{
   text-align: end;
 }
@@ -709,12 +755,16 @@ video {
   font-size: 11px;
 }
 
+.text-\[18px\]{
+  font-size: 18px;
+}
+
 .text-\[12px\]{
   font-size: 12px;
 }
 
-.text-\[18px\]{
-  font-size: 18px;
+.text-\[14px\]{
+  font-size: 14px;
 }
 
 .font-bold{
@@ -748,12 +798,14 @@ video {
   outline-offset: 2px;
 }
 
-.placeholder\:font-main::-moz-placeholder{
-  font-family: 'Space Grotesk', sans-serif;
+.placeholder\:text-2xl::-moz-placeholder{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.placeholder\:font-main::placeholder{
-  font-family: 'Space Grotesk', sans-serif;
+.placeholder\:text-2xl::placeholder{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .placeholder\:font-medium::-moz-placeholder{
